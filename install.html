@@ -3,7 +3,7 @@
     <p>Packaged app installation page</p>
     <script>
       // This URL must be a full url.
-      var manifestUrl = 'http://deeenistore.appspot.com/www/package.manifest';
+      var manifestUrl = 'http://miguelschneider.github.io/TheGame/package.manifest';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
         alert(this.result.origin);

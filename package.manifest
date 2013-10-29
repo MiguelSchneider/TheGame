@@ -1,5 +1,5 @@
 {
-  "package_path": "http://miguelschneider.github.io/TheGame/package.zip",
+  "package_path": "http://miguelschneider.github.io/TheGame/Package.zip",
   "name": "Bouncer",
   "description": "Have fun with Firefox OS",
   "launch_path": "/index.html",

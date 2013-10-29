@@ -1,0 +1,30 @@
+{
+  "package_path": "http://deeenistore.appspot.com/www/package.zip",
+  "name": "Meme Generator",
+  "description": "Meme Generator",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Daniel Coloma",
+    "url": "https://twitter.com/danielcoloma"
+  },
+  "default_locale": "es",
+  "locales": {
+    "en-US": {
+      "name": "Memes",
+      "description": "Meme Generator"
+    },
+    "es": {
+      "name": "Memes",
+      "description": "Creador de Memes"
+    },
+    "pt-BR": {
+      "name": "Memes",
+      "description": "Meme Generator"
+    }
+  },
+  "icons": {
+    "60": "/style/icons/60/icon.png",
+    "128": "/style/icons/icon.png"
+  },
+  "orientation": "portrait-primary"
+}

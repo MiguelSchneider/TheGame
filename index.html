@@ -33,23 +33,7 @@
 
 <p>This is intended to aid Firefox OS installs</p>
 
-<pre><code><html>
-  <body>
-    <p>Packaged app installation page</p>
-    <script>
-      // This URL must be a full url.
-      var manifestUrl = 'http://miguelschneider.github.io/TheGame/package.manifest';
-      var req = navigator.mozApps.installPackage(manifestUrl);
-      req.onsuccess = function() {
-        alert("Game sucesfully installed");
-      };
-      req.onerror = function() {
-        alert(this.error.name);
-      };
-    </script>
-  </body>
-</html>
-</code></pre>
+
 
       </section>
       <footer>

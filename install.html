@@ -6,7 +6,7 @@
       var manifestUrl = 'http://miguelschneider.github.io/TheGame/package.manifest';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
-        alert(this.result.origin);
+        alert("Game sucesfully installed");
       };
       req.onerror = function() {
         alert(this.error.name);
